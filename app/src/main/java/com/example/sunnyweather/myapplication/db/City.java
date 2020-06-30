@@ -1,15 +1,11 @@
-package com.sunweather.android.db;
+package com.example.sunnyweather.myapplication.db;
 
 import org.litepal.crud.DataSupport;
 
 public class City extends DataSupport {
-
     private int id;
-
     private String cityName;
-
     private int cityCode;
-
     private int provinceId;
 
     public int getId() {
@@ -43,5 +39,4 @@ public class City extends DataSupport {
     public void setProvinceId(int provinceId) {
         this.provinceId = provinceId;
     }
-
 }
